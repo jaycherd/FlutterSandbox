@@ -2,6 +2,16 @@
 ## What this
 - me want to learn about flutter and then build something..
 
+## Key points
+- flutter work multi platform but must pick a target.. thinking to start with android get idea how it works on phone
+- Dart, the programming language in which you're writing this app, is **null-safe**, so it won't let you call methods of objects that are potentially null. In this case, though, you can use the **! operator ("bang operator")** to assure Dart you know what you're doing. (displayMedium is definitely not null in this case. The reason we know this is beyond the scope of this codelab, though. context below:
+
+```dart
+    final style = theme.textTheme.displayMedium!.copyWith(
+      color: theme.colorScheme.onPrimary,
+    );
+```
+
 
 # Projects
 ## setup
@@ -13,7 +23,7 @@
     - also easier to do the hot reload and restart
 
 ## Next?
-keep going from https://docs.flutter.dev/get-started/quick
+keep going from https://docs.flutter.dev/get-started/quick; made it to part 6 add functionality of first flutter app: https://codelabs.developers.google.com/codelabs/flutter-codelab-first#5
 - i think start with
     - learn flutter development (these all seem pretty good)
         - write your first app
